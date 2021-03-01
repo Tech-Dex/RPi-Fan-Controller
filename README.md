@@ -44,7 +44,7 @@ fan2.value = 0.8
 fan3.value = 0.4
 ```
 
-## Stress test with stressbery
+## Stress test with stressberry 
 ```bash
 sudo apt install stress
 sudo pip3 install stressberry
