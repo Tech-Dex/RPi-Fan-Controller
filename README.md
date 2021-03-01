@@ -32,9 +32,9 @@ sudo systemctl status fancontroller.service
 ```
 ## How to edit the script?
 ```TEMPS``` and ```PWM_OUTPUT```: Edit them based on your temperature limit and what PWM you want to use when the CPU Temperature is above the limit you selected previous.<br>
-```GPIO_PIN``` : Edit this one based on the GPIO Pin you are using for your fan. The script can be extended with more fans, example below.<br>
+```GPIO_PIN``` : Edit this one based on the GPIO Pin you are using for your fan. The script I think it can be extended with more fans, example below.<br>
 ```DEFAULT_PWM```: Put the fan PWM value back to default value when you stop the script.<br><br>
-Extend script for more fans:
+Extend script for more fans(I didn't test this one bcs I don't have more fans, so it might be broken):
 ```bash
 fan1 = PWMOutputDevice(GPIO_PIN1)
 fan2 = PWMOutputDevice(GPIO_PIN2)
