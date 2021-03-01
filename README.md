@@ -2,7 +2,7 @@
 Automatically set fan's PWM based on CPU Temperature for a Raspberry Pi
 
 ## Why I created this script? Why should you use it?
-I bought a Raspberry Pi 4 with [official case](https://www.raspberrypi.org/products/raspberry-pi-4-case/) and [offical fan](https://www.raspberrypi.org/products/raspberry-pi-4-case-fan/) and the fan is very noisy.<br>
+I bought a Raspberry Pi 4 with [official case](https://www.raspberrypi.org/products/raspberry-pi-4-case/) and [official fan](https://www.raspberrypi.org/products/raspberry-pi-4-case-fan/) and the fan is very noisy.<br>
 The RPi is on my desk and this one is next to my bed and it was disturbing.<br>
 I am not exaggerating but the RPi official fan is noisier than my Desktop PC with 7 fans in it so I had to do something.
 
