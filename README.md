@@ -14,7 +14,7 @@ sudo pip3 install -r requirements.txt
 sudo pip3 install gpiozero
 ```
 
-2. ### Copy fancontroller.service in /lib/systemd/system/
+2. ### Edit and Copy fancontroller.service in /lib/systemd/system/
 ```bash
 sudo cp fancontroller.service /lib/systemd/system/
 ```
