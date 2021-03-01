@@ -1,0 +1,12 @@
+[Unit]
+Description=Fan Controller Service
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 <YOUR_PATH>/fancontroller.py
+StandardInput=tty-force
+
+[Install]
+WantedBy=multi-user.target
