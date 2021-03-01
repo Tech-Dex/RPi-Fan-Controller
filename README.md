@@ -43,3 +43,12 @@ fan1.value = 1.0
 fan2.value = 0.8
 fan3.value = 0.4
 ```
+
+## Stress test with stressbery
+```bash
+sudo apt install stress
+sudo pip3 install stressberry
+sudo /home/<<USER>>/.local/bin/stressberry-run -n "Custom PWM Test" -d 1800 -i 300 -c 4 test.out
+sudo MPLBACKEND=Agg /home/<<USER>>/.local/bin/stressberry-plot test.out -f -d 300 -f -l 400 1600 -t 30 90 -o test.png --not-transparent
+```
+![stressberry](test.png)
