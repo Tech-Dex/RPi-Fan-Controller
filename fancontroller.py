@@ -1,4 +1,3 @@
-import subprocess
 import time
 import sys
 from gpiozero import PWMOutputDevice, CPUTemperature
