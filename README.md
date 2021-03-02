@@ -1,5 +1,5 @@
 # RPi-Fan-Controller
-Automatically set fan's PWM based on CPU Temperature for a Raspberry Pi
+Automatically set fan's PWM based on CPU Temperature for a Raspberry Pi. This script will work only if you have the fan connected to RPi via a GPIO pin.
 
 ## Why I created this script? Why should you use it?
 I bought a Raspberry Pi 4 with [official case](https://www.raspberrypi.org/products/raspberry-pi-4-case/) and [official fan](https://www.raspberrypi.org/products/raspberry-pi-4-case-fan/) and the fan is very noisy.<br>
@@ -14,7 +14,7 @@ sudo pip3 install -r requirements.txt
 sudo pip3 install gpiozero
 ```
 
-2. ### Edit and Copy fancontroller.service in /lib/systemd/system/
+2. ### Edit <YOUR_PATH> inside fancontroller.service then copy the file in  /lib/systemd/system/
 ```bash
 sudo cp fancontroller.service /lib/systemd/system/
 ```
